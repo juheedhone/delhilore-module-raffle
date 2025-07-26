@@ -11,6 +11,7 @@
   --payment-error: #dc3545;
   --story-card-shadow: rgba(0, 0, 0, 0.07);
   --raffle-shadow: var(--raffle-shadow);
+  --neutral-ivory: #fffff0;
 }
 body {
   margin: 0;

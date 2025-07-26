@@ -1,87 +1,99 @@
 :root {
-      --primary-maroon: #800000;
-      --accent-slate-gray: #2F4F4F;
-      --neutral-ivory: #FFFFF0;
-      --neutral-light-gray: #D3D3D3;
-    }
+  --primary-maroon: #800000;
+  --neutral-light-gray: #d3d3d3;
+}
 
-    body {
-      background-color: var(--neutral-ivory);
-      font-family: 'Lora', serif;
-      color: var(--accent-slate-gray);
-    }
+body {
+  background-color: var(--neutral-ivory);
+  font-family: "Lora", serif;
+  color: var(--accent-color-gray);
+}
 
-    .container {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 20px;
-      background: linear-gradient(rgba(255, 255, 240, 0.8), rgba(255, 255, 240, 0.8)), url('https://images.unsplash.com/photo-1560158327-7f40224f5e65?auto=format&fit=crop&w=200&q=80'); /* Subtle Delhi heritage pattern */
-      background-size: cover;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      animation: slideUp 1s ease-out;
-    }
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: linear-gradient(
+      rgba(255, 255, 240, 0.8),
+      rgba(255, 255, 240, 0.8)
+    ),
+    url("https://images.unsplash.com/photo-1560158327-7f40224f5e65?auto=format&fit=crop&w=200&q=80"); /* Subtle Delhi heritage pattern */
+  background-size: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  animation: slideUp 1s ease-out;
+}
 
-    h1 {
-      font-family: 'Playfair Display', serif;
-      color: var(--primary-maroon); /* Override canal-blue */
-      font-size: 2.5em;
-      text-align: center;
-      margin-bottom: 10px;
-    }
+h1 {
+  font-family: "Playfair Display", serif;
+  color: var(--primary-maroon); /* Override canal-blue */
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 10px;
+}
 
-    p {
-      font-size: 1.1em;
-      text-align: center;
-      margin-bottom: 20px;
-    }
+p {
+  font-size: 1.1em;
+  text-align: center;
+  margin-bottom: 20px;
+}
 
-    .test-card-info {
-      background-color: var(--neutral-light-gray);
-      border-radius: 8px;
-      padding: 20px;
-      margin: 20px 0;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-      animation: fadeIn 1s ease-in;
-    }
+.test-card-info {
+  background-color: var(--neutral-light-gray);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in;
+}
 
-    .test-card-info h2 {
-      font-family: 'Playfair Display', serif;
-      color: var(--primary-maroon);
-      font-size: 1.8em;
-      margin-bottom: 10px;
-    }
+.test-card-info h2 {
+  font-family: "Playfair Display", serif;
+  color: var(--primary-maroon);
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
 
-    .test-card-info ul {
-      list-style: none;
-      padding: 0;
-      font-size: 1em;
-    }
+.test-card-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1em;
+}
 
-    .test-card-info li {
-      margin-bottom: 10px;
-    }
+.test-card-info li {
+  margin-bottom: 10px;
+}
 
-    .test-card-info strong {
-      color: var(--accent-slate-gray);
-    }
+.test-card-info strong {
+  color: var(--accent-color);
+}
 
-    .raffle-payment-btn.ghost {
-      background: none;
-      border: 1px solid var(--accent-slate-gray);
-      color: var(--accent-slate-gray);
-    }
+.raffle-payment-btn.ghost {
+  background: none;
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color-gray);
+}
 
-    .raffle-payment-btn.ghost:hover {
-      background-color: var(--neutral-light-gray);
-    }
+.raffle-payment-btn.ghost:hover {
+  background-color: var(--neutral-light-gray);
+}
 
-    @keyframes slideUp {
-      from { transform: translateY(20px); opacity: 0; }
-      to { transform: translateY(0); opacity: 1; }
-    }
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 
-    @keyframes fadeIn {
-      from { opacity: 0; }
-      to { opacity: 1; }
-    }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

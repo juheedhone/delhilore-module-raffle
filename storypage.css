@@ -1,86 +1,84 @@
- :root {
-      --primary-maroon: #800000;
-      --accent-slate: #2F4F4F;
-      --neutral-ivory: #FFFFF0;
-      --neutral-light: #f2f2f2;
-    }
-    body {
-      font-family: 'Lora', serif;
-      line-height: 1.75;
-      margin: 0;
-      padding: 0;
-      background-color: var(--neutral-ivory);
-      color: var(--accent-slate);
-    }
-    header {
-      background-color: #fff;
-      padding: 2.5rem 1rem;
-      text-align: center;
-      border-bottom: 1px solid #ddd;
-      background-image: url('delhi-pattern.png');
-      background-repeat: repeat;
-      background-size: contain;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.75rem;
-      font-family: 'Playfair Display', serif;
-      color: var(--primary-maroon);
-    }
-    header p {
-      font-size: 1.2rem;
-      color: var(--accent-slate);
-      max-width: 600px;
-      margin: 0.5rem auto 0;
-    }
-    section {
-      max-width: 960px;
-      margin: 3rem auto;
-      padding: 0 1.25rem;
-    }
-    article {
-      margin-bottom: 4rem;
-      padding: 1.5rem;
-      background-color: #fff;
-      border-radius: 12px;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
-      opacity: 0;
-      transform: translateY(20px);
-      animation: fadeUp 0.8s ease forwards;
-    }
-    article img {
-      width: 100%;
-      max-height: 400px;
-      object-fit: cover;
-      border-radius: 8px;
-    }
-    article h2 {
-      font-size: 2.25rem;
-      margin-top: 1rem;
-      font-family: 'Playfair Display', serif;
-      color: var(--primary-maroon);
-    }
-    .meta {
-      font-size: 0.95rem;
-      color: #666;
-      margin-bottom: 1rem;
-    }
-    .tags {
-      font-size: 0.85rem;
-      color: #666;
-      margin-top: 0.75rem;
-    }
-    @keyframes fadeUp {
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 2rem;
-      }
-      article h2 {
-        font-size: 1.5rem;
-      }
-    }
+:root {
+  --neutral-light: #f2f2f2;
+  --neutral-dark: #666;
+}
+body {
+  font-family: "Lora", serif;
+  line-height: 1.75;
+  margin: 0;
+  padding: 0;
+  background-color: var(--neutral-ivory);
+  color: var(--accent-color);
+}
+header {
+  background-color: #fff;
+  padding: 2.5rem 1rem;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  background-image: url("delhi-pattern.png");
+  background-repeat: repeat;
+  background-size: contain;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.75rem;
+  font-family: "Playfair Display", serif;
+  color: var(--primary-color);
+}
+header p {
+  font-size: 1.2rem;
+  color: var(--accent-color);
+  max-width: 600px;
+  margin: 0.5rem auto 0;
+}
+section {
+  max-width: 960px;
+  margin: 3rem auto;
+  padding: 0 1.25rem;
+}
+article {
+  margin-bottom: 4rem;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 0.8s ease forwards;
+}
+article img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+article h2 {
+  font-size: 2.25rem;
+  margin-top: 1rem;
+  font-family: "Playfair Display", serif;
+  color: var(--primary-color);
+}
+.meta {
+  font-size: 0.95rem;
+  color: var(--neutral-dark);
+  margin-bottom: 1rem;
+}
+.tags {
+  font-size: 0.85rem;
+  color: var(--neutral-dark);
+  margin-top: 0.75rem;
+}
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+  article h2 {
+    font-size: 1.5rem;
+  }
+}
