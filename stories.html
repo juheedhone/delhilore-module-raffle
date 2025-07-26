@@ -1,68 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Stories</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="storypage.css">
-  <script src="https://js.stripe.com/v3/"></script>
-  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-</head>
-<body>
-  <header>
-    <h1>Stories from Delhi</h1>
-    <p>Explore the hidden gems, forgotten poetry, and vibrant culture of the city.</p>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stories</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="storypage.css" />
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Stories from Delhi</h1>
+      <p>
+        Explore the hidden gems, forgotten poetry, and vibrant culture of the
+        city.
+      </p>
+    </header>
 
-  <section>
-    <article>
-      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80" alt="Whispering Walls">
-      <h2>The Whispering Walls</h2>
-      <p class="meta">By Ayesha | May 2025</p>
-      <p>In a quiet alley of Old Delhi, there's a mural that changes with the seasons. Locals say that it tells the stories of poets whose verses were lost to time. Every brushstroke holds emotion, and when the wind blows a certain way, people swear they can hear the walls whispering forgotten rhymes. This living artwork captures the ever-changing soul of the city.</p>
-      <p class="tags">Tags: Street Art, History</p>
-    </article>
+    <section>
+      <article>
+        <img
+          src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80"
+          alt="Whispering Walls"
+        />
+        <h2>The Whispering Walls</h2>
+        <p class="meta">By Ayesha | May 2025</p>
+        <p>
+          In a quiet alley of Old Delhi, there's a mural that changes with the
+          seasons. Locals say that it tells the stories of poets whose verses
+          were lost to time. Every brushstroke holds emotion, and when the wind
+          blows a certain way, people swear they can hear the walls whispering
+          forgotten rhymes. This living artwork captures the ever-changing soul
+          of the city.
+        </p>
+        <p class="tags">Tags: Street Art, History</p>
+      </article>
 
-    <article>
-      <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=900&q=80" alt="Midnight Chai">
-      <h2>Midnight Chai</h2>
-      <p class="meta">By Rohan | April 2025</p>
-      <p>Hidden in plain sight, Delhi's secret midnight tea stalls offer more than a warm cup — they serve untold stories. At midnight, storytellers, rickshaw drivers, and night workers gather over chai brewed on ancient coal stoves. The aroma is thick with cardamom and nostalgia. Rohan's poem captures the haunting beauty of these moments — a ritual of silence and words shared between sips.</p>
-      <p class="tags">Tags: Poem, Culture</p>
-    </article>
+      <article>
+        <img
+          src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=900&q=80"
+          alt="Midnight Chai"
+        />
+        <h2>Midnight Chai</h2>
+        <p class="meta">By Rohan | April 2025</p>
+        <p>
+          Hidden in plain sight, Delhi's secret midnight tea stalls offer more
+          than a warm cup — they serve untold stories. At midnight,
+          storytellers, rickshaw drivers, and night workers gather over chai
+          brewed on ancient coal stoves. The aroma is thick with cardamom and
+          nostalgia. Rohan's poem captures the haunting beauty of these moments
+          — a ritual of silence and words shared between sips.
+        </p>
+        <p class="tags">Tags: Poem, Culture</p>
+      </article>
 
-    <article>
-      <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=900&q=80" alt="Forgotten Stepwell">
-      <h2>The Forgotten Stepwell</h2>
-      <p class="meta">By Priya | March 2025</p>
-      <p>Just behind the chaos of Chandni Chowk lies a hidden stepwell, wrapped in silence and stone. Its carvings speak of ancient rituals, and moss lines the edges where children once played. Priya's photo essay reveals layers of Delhi that most have never seen — a time capsule of architecture, faith, and forgotten gatherings.</p>
-      <p class="tags">Tags: Photo, Heritage</p>
-    </article>
+      <article>
+        <img
+          src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=900&q=80"
+          alt="Forgotten Stepwell"
+        />
+        <h2>The Forgotten Stepwell</h2>
+        <p class="meta">By Priya | March 2025</p>
+        <p>
+          Just behind the chaos of Chandni Chowk lies a hidden stepwell, wrapped
+          in silence and stone. Its carvings speak of ancient rituals, and moss
+          lines the edges where children once played. Priya's photo essay
+          reveals layers of Delhi that most have never seen — a time capsule of
+          architecture, faith, and forgotten gatherings.
+        </p>
+        <p class="tags">Tags: Photo, Heritage</p>
+      </article>
 
-    <article>
-      <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=900&q=80" alt="Colors of Chandni Chowk">
-      <h2>Colors of Chandni Chowk</h2>
-      <p class="meta">By Meera | February 2025</p>
-      <p>Every wall in Chandni Chowk bursts with stories. The graffiti isn't just decoration — it's a dialogue. From playful portraits of shopkeepers to sharp political commentary, the streets are canvases in motion. Meera captures the vibrant chaos of the market where every color screams a different emotion, and every street artist adds a voice to Delhi's never-ending conversation.</p>
-      <p class="tags">Tags: Street Art, Bazaar</p>
-    </article>
-  </section>
+      <article>
+        <img
+          src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=900&q=80"
+          alt="Colors of Chandni Chowk"
+        />
+        <h2>Colors of Chandni Chowk</h2>
+        <p class="meta">By Meera | February 2025</p>
+        <p>
+          Every wall in Chandni Chowk bursts with stories. The graffiti isn't
+          just decoration — it's a dialogue. From playful portraits of
+          shopkeepers to sharp political commentary, the streets are canvases in
+          motion. Meera captures the vibrant chaos of the market where every
+          color screams a different emotion, and every street artist adds a
+          voice to Delhi's never-ending conversation.
+        </p>
+        <p class="tags">Tags: Street Art, Bazaar</p>
+      </article>
 
-  <!-- Raffle Widget -->
-  <div id="raffle-widget" class="raffle-widget collapsed">
-    <div class="raffle-icon">🎟️</div>
-    <div class="raffle-panel">
-      <p class="raffle-status">Loading...</p>
-      <button class="raffle-join-btn">Join the Raffle</button>
-      <button class="raffle-payment-btn">Proceed to Payment</button>
+      <article>
+        <img
+          src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=900&q=80"
+          alt="The Banyan Oracle"
+        />
+        <h2>The Banyan Oracle</h2>
+        <p class="meta">By Kabir | January 2025</p>
+        <p>
+          In the heart of Lodhi Gardens stands an ancient banyan tree, rumored
+          to grant wisdom to those who listen closely at dawn. Elders say the
+          tree has witnessed centuries of secrets, from royal conspiracies to
+          lovers' promises. Kabir's tale weaves the legend of the Banyan Oracle,
+          where every root and leaf holds a memory of Delhi's past, waiting to
+          be discovered by the patient listener.
+        </p>
+        <p class="tags">Tags: Legend, Nature</p>
+      </article>
+
+      <article>
+        <img
+          src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=900&q=80"
+          alt="Mirza's Lantern"
+        />
+        <h2>Mirza's Lantern</h2>
+        <p class="meta">By Sana | December 2024</p>
+        <p>
+          Every winter, a mysterious lantern glows atop the ruins of Feroz Shah
+          Kotla. Locals whisper that it belongs to Mirza, a forgotten poet who
+          wanders the ramparts searching for his lost verses. Sana's story
+          follows a young boy who, drawn by the light, uncovers a hidden diary
+          and the bittersweet poetry of Mirza, forever illuminating the shadows
+          of Delhi's history.
+        </p>
+        <p class="tags">Tags: Mystery, Poetry</p>
+      </article>
+    </section>
+
+    <!-- Raffle Widget -->
+    <div id="raffle-widget" class="raffle-widget collapsed">
+      <div class="raffle-icon">🎟️</div>
+      <div class="raffle-panel">
+        <p class="raffle-status">Loading...</p>
+        <button class="raffle-join-btn">Join the Raffle</button>
+        <button class="raffle-payment-btn">Proceed to Payment</button>
+      </div>
     </div>
-  </div>
 
-  <script src="raffle-widget.js"></script>
-</body>
+    <script src="raffle-widget.js"></script>
+  </body>
 </html>
